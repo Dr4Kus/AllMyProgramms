@@ -30,7 +30,13 @@ public:
 		return Author;
 	}
 
-	
+	unsigned int getCount() const {
+		return Count;
+	}
+};
+
+
+
 int main() {
 
 	return 0;

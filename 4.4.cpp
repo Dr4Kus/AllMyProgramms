@@ -14,6 +14,12 @@ public:
 		Name = name;
 	}
 
+	void setAuthor(string author) {
+		Author = author;
+	}
+
+	
+
 int main() {
 
 	return 0;

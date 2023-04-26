@@ -9,11 +9,14 @@ private:
 	string Name;
 	string Author;
 	unsigned int Count;
-
+public:
+	void setName(string name) {
+		Name = name;
+	}
 
 int main() {
-	
 
 	return 0;
 }
+
 

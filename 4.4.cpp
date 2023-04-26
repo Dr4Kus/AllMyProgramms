@@ -22,8 +22,11 @@ public:
 		Count = count;
 	}
 
-	
+	string getName() const {
+		return Name;
+	}
 
+	
 int main() {
 
 	return 0;

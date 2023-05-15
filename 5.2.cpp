@@ -6,3 +6,8 @@ public:
     bool B;
     bool C;
 };
+
+int main() {
+  
+    return 0;
+}

@@ -35,4 +35,6 @@ bool LogElement::getResNand() {
     return not (In1 and In2);
 }
 
-
+bool LogElement::getResNor() {
+    return not (In1 or In2);
+}

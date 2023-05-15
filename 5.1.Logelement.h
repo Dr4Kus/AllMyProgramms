@@ -27,3 +27,8 @@ bool LogElement::getResOr(){
 bool LogElement::getResNot(){
 	return not In1;
 };	
+bool LogElement::getResAnd(){
+	return In1 and In2;
+};	
+	
+

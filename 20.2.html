@@ -51,7 +51,20 @@
         displayCurrentIndex();
       });
 
-   
+      setMaxButton.addEventListener("click", () => {
+        const newMaxIndex = parseInt(prompt("Введите новое значение для максимального индекса:"));
+        if (!isNaN(newMaxIndex) && newMaxIndex >= 0 && newMaxIndex < array.length) {
+          maxIndex = newMaxIndex;
+          if (currentIndex > maxIndex) {
+            currentIndex = maxIndex;
+          }
+          displayCurrentIndex();
+        } else {
+          alert("Введите корректное значение для максимального индекса.");
+        }
+      });
+
+
     </script>
   </body>
 </html>

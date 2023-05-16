@@ -32,7 +32,13 @@
 
       displayCurrentIndex();
 
-     
+      backButton.addEventListener("click", () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+        }
+        displayCurrentIndex();
+      });
+
     
     </script>
   </body>
